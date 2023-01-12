@@ -1,0 +1,378 @@
+.Second {
+    margin-top: 70px;
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header_page2 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(135, 215, 205);
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    z-index: 3;
+}
+
+.stats {
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+    height: 100%;
+    width: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.stats_big {
+    white-space: pre;
+    width: 100%;
+    text-align: center;
+    font-size: 68px;
+    font-weight: 800;
+}
+
+.stats_small {
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
+
+.main_page2 {
+    overflow: hidden;
+    margin-top: 70px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    min-width: 20%;
+    overflow: hidden;
+}
+.red_stripe{
+    white-space: pre;
+    width: 50px;
+    border-top: 4px rgb(223, 107, 107) solid;
+    margin-top: 35px;
+}
+
+.curr_text{
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 26px;
+    font-family: "EastvilleSquareUS";
+}
+a {
+    color: white;
+    text-decoration: none
+  }
+  a:hover{
+    color: gold;
+    border-bottom: 2px solid gold;
+    cursor: url(../cursors/cursor_drag_hand_icon.png), pointer;
+  }
+
+.section_service{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            margin-top: 130px;
+}
+
+.am_serv{
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    font-weight: 1000;
+    overflow: hidden;
+}
+.cards{
+    margin-top: 70px;
+    width: 100%;
+    color: black;
+    font-size: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+}
+.cards2{
+    margin-top: 50px;
+    width: 100%;
+    color: black;
+    font-size: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+}
+.card{
+    width: 100%;
+    color: black;
+    font-size: 30px;
+}
+.big_icon{
+    width: 32px;
+    height: 32px;
+    margin-left: 30px;
+}
+.icon_name{
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.icon_description{
+    opacity: 0.8;
+    width: 330px;
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.gray_line{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 1260px;
+    height: 1px;
+    background-color: gray;
+}
+
+.blue_line{
+    margin-top: 90px;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(135, 215, 205);
+}
+.line_center{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.bot_page2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    z-index: 0;
+}
+.bot_page2_text{
+    font-size: 14px;
+    color: black;
+    opacity: 0.7;
+    width: 1000px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.img_service{
+    width: 500px;
+    height: 300px;
+    background-image: url(../person-images/man.jpg);
+    background-size: cover;
+    -webkit-transition: -webkit-box-shadow .8s ease;
+    transition: -webkit-box-shadow .8s ease;
+    -o-transition: box-shadow .8s ease;
+    transition: box-shadow .8s ease;
+    transition: box-shadow .8s ease, -webkit-box-shadow .8s ease;
+}
+.img_service:hover{
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.block_service{
+    width: 500px;
+    height: 300px;
+    display: block;
+
+}
+.small_block_service{
+    width: 500px;
+    height: 50px;
+    border: 1px gray solid;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+.text_block_service{
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 485px;
+    height: 120px;
+    border: 1px gray solid;
+    overflow: auto;
+    line-height: 22px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+.icon_service{
+    width: 32px;
+    height: 32px;
+    margin-left: 5px;
+    margin-top: 9px;
+}
+.icon_name_service{
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.gray_service{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(222, 222, 222, 0.577);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    overflow: hidden;
+
+}
+.service_arrow{
+    width: 16px;
+    height: 16px;
+    margin-top: 17px;
+    cursor: url(../cursors/cursor_drag_hand_icon.png), pointer;
+}
+.service_arrow:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+            transform: scale(1.3);
+}
+.service_arrow_up{
+    width: 16px;
+    height: 16px;
+    margin-top: 17px;
+    -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+            transform: rotate(180deg);
+            cursor: url(../cursors/cursor_drag_hand_icon.png), pointer;
+}
+.service_arrow_up:hover{
+    -webkit-transform: rotate(180deg) scale(1.3);
+        -ms-transform: rotate(180deg) scale(1.3);
+            transform: rotate(180deg) scale(1.3);
+}
+.service_arrow_left{
+    width: 16px;
+    height: 16px;
+    margin-top: 56px;
+    margin-right: 60px;
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+            cursor: url(../cursors/cursor_drag_hand_icon.png), pointer;
+}
+.service_arrow_left:hover{
+    -webkit-transform: rotate(90deg) scale(1.3);
+        -ms-transform: rotate(90deg) scale(1.3);
+            transform: rotate(90deg) scale(1.3);
+            
+}
+.service_arrow_right{
+    width: 16px;
+    height: 16px;
+    margin-top: 56px;
+    margin-left: 60px;
+    -webkit-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+            transform: rotate(270deg);
+            cursor: url(../cursors/cursor_drag_hand_icon.png), pointer;
+}
+.service_arrow_right:hover{
+    -webkit-transform: rotate(270deg) scale(1.3);
+        -ms-transform: rotate(270deg) scale(1.3);
+            transform: rotate(270deg) scale(1.3);
+}
+.service_big_icon{
+    width: 128px;
+    height: 128px;
+}
+
+.text_block_big_service{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 700px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 32px;
+    overflow: auto;
+    color: gray;
+    opacity: 0.7;
+}
+.red_stripe_service{
+    white-space: pre;
+    width: 50px;
+    border-top: 4px rgb(223, 107, 107) solid;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.author_service{
+    margin-top: -13px;
+    color: black;
+    font-weight: 1000;
+    font-style: italic;
+    font-size: 18px;
+}
+.block{
+    margin-left: 40px;
+    width: 520px;
+    overflow: hidden;
+}
+.arrow_margin300{
+    margin-left: 300px;
+}
+.arrow_margin320{
+    margin-left: 320px;
+}
+.arrow_margin330{
+    margin-left: 330px;
+}

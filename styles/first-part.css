@@ -1,0 +1,237 @@
+body,
+html {
+    width: 100%;
+    margin: 0;
+    font-family: Helvetica;
+    display: inline-block;
+    scroll-behavior: smooth;
+    -webkit-animation-name: appear;
+            animation-name: appear;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    cursor: url(../cursors/icons8-cursor-32.png), default;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "EastvilleSquareUS"; 
+    src: url("../fonts/EastvilleSquareUS-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+@-webkit-keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  } 
+
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  ::-moz-selection {
+    background: #ffeeb7; 
+    }
+  ::selection {
+    background: #ffeeb7; 
+    }
+
+::-webkit-scrollbar{
+    width: 0;
+}
+.button_up{
+    position: fixed;
+    left: 1%;
+    top: 1%;
+}
+.button_up:hover{
+    -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+            transform: scale(1.3);
+}
+.button_down{
+    position: fixed;
+    left: 1%;
+    bottom: 1%;
+}
+.button_down:hover{
+    -webkit-transform: rotate(180deg) scale(1.3);
+        -ms-transform: rotate(180deg) scale(1.3);
+            transform: rotate(180deg) scale(1.3);
+}
+
+.First {
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(243, 42, 42, 0.6)), to(rgba(208, 197, 75, 0.6)));
+    background: -o-linear-gradient(top, rgba(243, 42, 42, 0.6) 0%, rgba(208, 197, 75, 0.6) 100%);
+    background: linear-gradient(180deg, rgba(243, 42, 42, 0.6) 0%, rgba(208, 197, 75, 0.6) 100%);
+    margin: 0;
+    overflow: hidden;
+}
+
+.eagle{
+    position: absolute;
+    width: 100%;
+    height: 1100px;
+    background-image: url(../background-images/eagle.png);
+    background-size: 100% 1200px;
+    opacity: 0.06;
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.menu {
+    width: 100%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.MoGo {
+    text-align: right;
+    font-weight: 800;
+    font-size: 28px;
+    width: 20%;
+    margin-top: 22px;
+    height: 100%;
+    color: white;
+    z-index: 1;
+    min-width: 20%;
+}
+
+.MoGo:hover {
+    color: gold;
+}
+
+.empty {
+    width: 25%;
+    margin-top: 2%;
+    height: 100%;
+}
+
+.menu_block {
+    height: 100%;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-right: 3%;
+    vertical-align: bottom;
+    color: white;
+}
+
+.menu_block:hover {
+    color: gold;
+    border-bottom: 2px solid gold;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    min-width: 20%;
+}
+
+.center {
+    width: 100%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-width: 20%;
+}
+
+.center_creative {
+    margin-top: 150px;
+    white-space: pre;
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    font-family: "EastvilleSquareUS";
+    font-style: italic;
+}
+
+.center_mogo {
+    margin-top: 20px;
+    font-weight: 700;
+    white-space: pre;
+    font-size: 128px;
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+
+.stripe {
+    white-space: pre;
+    width: 50px;
+    border-top: 4px white solid;
+    margin: 30px;
+}
+
+.learn_more {
+    border: 4px white solid;
+    color: white;
+    background-color: transparent;
+    width: 170px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: url(../cursors/cursor_drag_hand_icon.png), pointer;
+}
+
+.learn_more:hover {
+    color: gold;
+    border: 4px gold solid;
+}
+
+.main_bot {
+    margin-top: 150px;
+    margin-bottom: 30px;
+    width: 100%;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.red_line {
+    width: 300px;
+    margin-left: 20px;
+    border-width: 3px 0px 0px 0px;
+    -o-border-image: -o-linear-gradient(left, rgb(223, 107, 107) 26%, rgba(255, 255, 255, 1) 26%);
+       border-image: -webkit-gradient(linear, left top, right top, color-stop(26%, rgb(223, 107, 107)), color-stop(26%, rgba(255, 255, 255, 1)));
+       border-image: linear-gradient(90deg, rgb(223, 107, 107) 26%, rgba(255, 255, 255, 1) 26%);
+    border-image-slice: 9;
+    border-style: solid;
+    padding-top: 20px;
+}
+
+.line {
+    width: 300px;
+    margin-left: 20px;
+    border-width: 3px 0px 0px 0px;
+    border-style: solid;
+    border-color: white;
+    padding-top: 20px;
+}
